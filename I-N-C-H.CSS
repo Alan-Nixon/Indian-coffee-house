@@ -1,0 +1,429 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .navbar-links {
+    margin-top: 15px;
+    display: flex;
+  }
+
+
+  .burger {
+    display: none;
+    cursor: pointer;
+  }
+
+  .line {
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+  }
+
+  .links-on-Nav {
+    color: black;
+    float: left;
+    padding-left: 15px;
+    font-size: 1.6rem;
+    font-weight: 550;
+    text-decoration: none;
+
+  }
+
+  .links-on-Nav:hover {
+    cursor: pointer;
+    color: red;
+    text-decoration: none;
+
+  }
+
+  /* Media query for responsive design */
+  @media screen and (max-width: 1250px) {
+    .navbar {
+      display: flex;
+      height: auto;
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+    }
+
+    .navbar-links {
+      display: none;
+      /* Hide the links on smaller screens */
+    }
+
+    .burger {
+      display: block;
+      float: right;
+      margin-left: auto;
+      /* Show the burger button on smaller screens */
+    }
+
+    /* Additional styles to make the hamburger button visible */
+    .active {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .active a {
+      display: block;
+    }
+  }
+ 
+.secondSection {
+    width: auto;
+    height: auto;
+    float: left;
+    margin-top: 4%;
+}
+
+.Second-heading {
+    font-size: 30px;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #15162A;
+}
+
+.secondText {
+    float: left;
+    margin-left: 7%;
+    z-index: 1;
+}
+
+.Secondimage {
+    margin-top: 5%;
+}
+
+.Sec-Fir-para {
+    font-size: small;
+}
+
+.Read-More {
+    border: none;
+    background-color: #6F4E37;
+    width: 120px;
+    height: 30px;
+}
+
+.Read-More:hover {
+    background: red;
+}
+
+.butn-read {
+    text-decoration: none;
+    color: white;
+    font-size: 130%;
+}
+
+.butn-read:hover {
+    color: white;
+}
+
+.Our-sus {
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    float: left;
+}
+
+.head-O-U {
+    font-weight: 700;
+ 
+    margin-left: 30%;
+    font-size: 4rem;
+}
+
+.logo-O-U {
+    width: 5.2vh;
+    margin-top: 10px;
+    margin-left: 16%;
+}
+
+.logos-sus {
+    height: auto;
+    width: 80%;
+    justify-content: center;
+    float: top;
+    background-color: green;
+}
+
+
+.text-N-Div {
+    margin-left: 13%;
+    font-size: 1.4rem;
+}
+
+.logo-img-1 {
+    float: left;
+    height: auto;
+    margin-left: 10%;
+}
+
+.Forms {
+    float: left;
+    width: 100%;
+    background-color: #f6f4f3;
+    max-height: auto;
+}
+
+.Enquiry-Div {
+    float: left;
+    height: auto;
+}
+
+.Form1-Head {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.Form2-Head {
+    font-size: 4rem;
+    text-align: center;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+
+.form-control {
+    width: 80%;
+    height: 4.1rem;
+    display: flex;
+    float: left;
+    margin-left: 16%;
+    margin-top: 3%;
+}
+
+.form-div-1 {
+    float: left;
+    background-color: #f6f4f3;
+    width: 100%;
+    height: auto;
+}
+
+.Enq-btn {
+    background-color: #6F4E37;
+    width: 21%;
+    color: white;
+    border: none;
+    font-size: large;
+    justify-content: center;
+}
+
+.Enq-btn:hover {
+    background-color: red;
+}
+
+.Complaints-Div {
+    float: left;
+    display: flex;
+    height: 350px;
+}
+
+
+
+.Latest-News-Div {
+    float: left;
+    height: auto;
+    width: 100%;
+
+}
+
+.red-Div {
+    float: left;
+    width: 5px;
+    height: 100%;
+    margin-left: -15px;
+    background-color: red;
+}
+
+.form-div-2 {
+    width: 100%;
+    height: auto;
+}
+
+.Latest-news {
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.images-Se {
+    width: 350px;
+    margin-left: 10%;
+    margin-top: 25px;
+}
+
+
+.search-B-Div {
+    width: auto;
+    float: left;
+    margin-top: 2%;
+    background-color: #000068;
+    height: 100px;
+}
+
+.text-B-S {
+    justify-content: center;
+    margin-left: 2%;
+    margin-top: 0%;
+    height: 30px;
+    border: 1px solid;
+    width: auto;
+}
+
+.text-Div-S {
+    float: left;
+    width: auto;
+    height: auto;
+    margin-top: 2.5%;
+    margin-left: 10%;
+}
+
+/* .butn-Div {
+    float: right;
+    margin-right: 8%;
+    width: 300px;
+    margin-top: 1%;
+} */
+
+.text-B-S::placeholder {
+    font-size: 1.5rem;
+}
+
+.butn-Search {
+    background-color: #E2362D;
+    font-size: 1.5rem;
+    width: 150px;
+    border: none;
+    height: 38px;
+    color: white;
+}
+
+
+
+.butn-Search:hover {
+    background: #000068;
+    height: 45px;
+    border: 3px solid white;
+}
+
+.footer {
+    width: 100%;
+    float: left;
+    height: auto;
+    background-color: white;
+}
+
+.Logo-A-Text {
+    float: left;
+    width: 469px;
+    height: 242px;
+    margin: auto;
+    justify-content: center;
+}
+
+#image-logo-1 {
+    width: 55%;
+    margin-left: 13%;
+    margin-top: 12%;
+}
+
+.text-1-Div-1 {
+    margin-left: 13%;
+    margin-top: 5%;
+    font-size: 1.3rem;
+}
+
+.Useful-Links {
+    float: left;
+    display: flex;
+    width: 429px;
+    height: 242px;
+    margin: auto;
+}
+
+.inner-Div-2 {
+    margin-left: 30px;
+}
+
+.text-Head-2-Div {
+    margin-top: 30px;
+}
+
+.ul-Links {
+    font-size: 1.5rem;
+}
+
+.Contact-Us-Div {
+    float: left;
+    width: 449px;
+    height: 242px;
+}
+.ico{
+    color: red;
+    margin-left: 20px;
+}
+
+.contact-Us-text {
+    font-size: 1.5rem;
+}
+
+.copyright {
+    width: 100%;
+    height: 52px;
+    margin-top: 2%;
+    float: left;
+    font-size: 1.6rem;
+    background-color: red;
+}
+.copyright-Text{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10%;
+    color: white;
+}
+
+.image-2{
+    width: 350px;
+    margin-left: 10%;
+     margin-top: 25px;
+}
+
+/* hamburger button */
+@media screen and (max-width: 1000px) {
+    .search-B-Div {
+        width: auto;
+        height: auto;
+        float: left;
+        margin-top: 19%;
+        
+    }
+    .butn-Search {
+        background-color: #E2362D;
+        font-size: 1.5rem;
+        width: 150px;
+        border: none;
+        height: 38px;
+        color: white;
+        margin-left: 2%;
+    }
+    
+  }
+  @media screen and (max-width: 670) {
+  .image-2{
+    float: left;
+    margin-left: 1px;
+  }
+}
